@@ -1,3 +1,46 @@
 body {
-    background : blue;
+    background : lightblue;
+}
+.Long{
+    background : navy;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.Long>div,nav,footer{
+    flex: 1;
+    color: white;
+    margin-bottom: 0px;
+}
+h1{
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.breaker{
+    height : .5em;
+}
+main div:not(.breaker){
+    margin-top: 0px;
+    padding: 12px;
+}
+main div div{
+    background : rgba(28, 141, 145, 0.637);
+    width: 100em;
+}
+#img{
+    display: flex;
+}
+.short{
+    width: 15rem
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+ul{
+    size:2em;
 }
